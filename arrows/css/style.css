@@ -1,0 +1,27 @@
+:root {
+   font-size: 32px;
+}
+
+span {
+   display: inline-block;
+   height: 40px;
+   line-height: 40px;
+   position: relative;
+   padding: 0 4px;
+   background-color: rgba(127,50, 220, .5);
+   transition: .5s;
+}
+
+span::after {
+   position: absolute;
+   left: 100%;
+   content: '';
+   border-top: 20px solid transparent;
+   border-right: 20px solid transparent;
+   border-bottom: 20px solid transparent;
+   border-left: 20px solid rgba(127,50, 220, .5);
+}
+
+span:hover {
+   background-color: white;
+}
