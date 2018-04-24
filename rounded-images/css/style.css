@@ -8,6 +8,9 @@ body {
 }
 
 nav {
+   position: fixed;
+   top: 0;
+   background-color: white;
    display: block;
    text-align: center;
    padding: 0;
@@ -48,8 +51,6 @@ a:active {
    background-color: red;
 }
 
-header {
-   margin: auto;
-   width: 585px;
-   display: flex;
+nav + p:first-of-type {
+   margin-top: 80px;
 }
