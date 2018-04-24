@@ -1,0 +1,29 @@
+* {
+   margin: 0;
+   padding: 0;
+}
+
+header,
+main,
+footer {
+   padding: 100px 0;
+}
+
+header {
+   background-color: rgba(127, 255, 67, .5);
+}
+
+main {
+   background-color: rgba(127, 67, 255, .5);
+}
+
+footer {
+   background-color: rgba(67, 255, 255, .5);
+}
+
+#header-container,
+#main-container,
+#footer-container {
+   width: 768px;
+   margin: auto;
+}
